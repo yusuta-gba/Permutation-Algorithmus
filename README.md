@@ -1,5 +1,6 @@
-# Permutation-Algorithmus
-Permutation
+# Algorithms
+
+There are my research results about Cryptography and some Coding Standards
 
 <object data="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Permutation.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Permutation.pdf">
