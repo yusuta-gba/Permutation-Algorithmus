@@ -16,6 +16,6 @@ Permutation
 </object>
 
 <li>  C++ Code <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.cpp>Main Code</a></li>    
-<li>  Header File <a href="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.h>ClassFile</a></li> 
+<li>  Header File <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.h>ClassFile</a></li> 
   
 
