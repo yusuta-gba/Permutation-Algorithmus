@@ -10,14 +10,16 @@ Permutation
 </object>
 
 
+
 <object data="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf">
         <p>  The  symmetric Transposition-Cipher <a href="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf">Download PDF</a>.</p>
+    <li>  C++ Code <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.cpp>Main Code</a></li>    
+<li>  Header File <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.h>ClassFile</a></li> 
 </embed>
     
 </object>
 
-<li>  C++ Code <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.cpp>Main Code</a></li>    
-<li>  Header File <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/test.h>ClassFile</a></li> 
+
   
 
