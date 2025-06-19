@@ -332,15 +332,15 @@ bool Encryption::linearGetBits(int v2)
 	int counter = 0;
 	for (int i = 1; i <= 8; i++)							// Einlesevorgang des Datenstroms V2													
 	{
-		x = 8 * i - 1;										// 64 -  (8 * 7) -> 64  
-		y = 8 * (i - 1);									// 63		|			-1	
-		for (x; x >= y; x--)								// 62		|			-2
-		{													// 61		|			-3
-			counter++;										// 60		|			-4
-															// 59		|			-5
-															// 58		|			-6
-			if (v2 == counter)								// 57		|			-7
-			{												// 56		v			-8								
+		x = 8 * i - 1;								// 64 -  (8 * 7) -> 64  
+		y = 8 * (i - 1);							// 63	|	-1	
+		for (x; x >= y; x--)							// 62	|	-2
+		{									// 61	|	-3
+			counter++;							// 60	|	-4
+											// 59	|	-5
+											// 58	|	-6
+			if (v2 == counter)						// 57	|	-7
+			{								// 56		-8								
 				counter = 0;
 				return this->ReverseSearchBits(x);
 			}
@@ -627,7 +627,7 @@ int main(char argv[], int argc)
 	printf("OK!");
 	printf("*******\n");
 
-	printf("\n********************\n");		// Ausführen der Permutations-Chiffre
+	printf("\n********************\n");		// AusfÃ¼hren der Permutations-Chiffre
 	DES.loadHex(true, false, false);			// Das erste Bit-Array konvertieren und diese dann im Byte-Array speichern
 	DES.printBytes();
 	printf("*********************\n");
@@ -639,7 +639,7 @@ int main(char argv[], int argc)
 	DES.mirror(0);
 	DES.printBitV2();
 	printf("*********************\n");
-	//  Ausführung der Transposition
+	//  AusfÃ¼hrung der Transposition
 	DES.loadHex(false, true, false);	   // Das zweite Bit-Array konvertieren und diese dann im selben Byte-Array speichern !	
 	DES.select(0);
 	DES.loadHex(false, false, true);	   // Das dritte Bit-Array konvertieren und diese dann im selben Byte-Array speichern !
@@ -650,13 +650,13 @@ int main(char argv[], int argc)
 	DES.permutate();
 	DES.printPERM();
 	printf("*********************\n");
-	DES.mirror(8);						// Ausführung der näüchsten Transposition
+	DES.mirror(8);						// AusfÃ¼hrung der nÃ¤Ã¼chsten Transposition
 	DES.loadHex(false, true, false);
-	DES.select(8);						// Auswählen der einzelnen Bits und diese  in einem weiteren Byte-Array speichern
+	DES.select(8);						// AuswÃ¤hlen der einzelnen Bits und diese  in einem weiteren Byte-Array speichern
 	DES.loadHex(false, false, true);
 	DES.printBytes();
 	printf("*********************\n");
-	DES.mirror(16);					    // Ausführung der nächsten Transposition
+	DES.mirror(16);					    // AusfÃ¼hrung der nÃ¤chsten Transposition
 	DES.loadHex(false, true, false);
 	DES.select(16);
 	DES.loadHex(false, false, true);
@@ -668,9 +668,9 @@ int main(char argv[], int argc)
 	DES.loadHex(false, false, true);
 	DES.printBytes();
 	printf("*********************\n");
-	DES.mirror(32);					// Ausführung der letzten Transposition
+	DES.mirror(32);					// AusfÃ¼hrung der letzten Transposition
 	DES.loadHex(false, true, false);
-	DES.select(32);					// Auswählen der einzelnen Bits und diese in einem weiteren Byte-Array speichern
+	DES.select(32);					// AuswÃ¤hlen der einzelnen Bits und diese in einem weiteren Byte-Array speichern
 	DES.loadHex(false, false, true);
 	DES.printBytes();			   // Ausgabe der einzelnen Bytes !
 	printf("********************\n");
