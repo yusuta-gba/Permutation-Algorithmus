@@ -4,7 +4,7 @@ Permutation
 <object data="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Permutation.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Permutation.pdf">
         <p> This is my research result about  the  Permutation of Data-Encryption-Standard-Cipher <a href="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Permutation.pdf">Download PDF</a>.</p>
-        <li>  Encryption-Techniques <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Encryption.cpp>Encyption</a></li>
+        <li>  Encryption-Techniques <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Encryption.cpp>Encryption</a></li>
         <li>  Cryptanalysis-Attacks <a href=https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/Cryptanalysis.cpp>Linear-Attack</a></li>
     </embed>
 </object>
