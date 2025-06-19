@@ -10,7 +10,7 @@ Permutation
 
 <object data="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf">
-        <p> My research result about  the  symmetric Transposition-Cipher <a href="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf">Download PDF</a>.</p>
+        <p>  The  symmetric Transposition-Cipher <a href="https://github.com/yusuta-gba/Permutation-Algorithmus/blob/main/template.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
